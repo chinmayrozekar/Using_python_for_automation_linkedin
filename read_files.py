@@ -6,9 +6,9 @@
 # inputFile.close()
 
 
-inputfile = open("inputFile.txt", "r")
+inputfile = open("Exercise Files/inputFile.txt", "r")
 for line in inputfile:
-    line_slpit = line.split()
-    if line_slpit[-1] == "P":
+    line_slpit = line.split()  # whe you split something it becomes a list
+    if line_slpit[-1] == "F":
         print(line)
 inputfile.close()
